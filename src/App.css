@@ -1,0 +1,48 @@
+.active{
+  color: red !important;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid #cbd5e0;  
+  padding: 10px; 
+  font-size: 20px;  
+}
+
+
+
+
+.win-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.win-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  max-width: 90%;
+   
+}
+ 
+.win-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+ 
+

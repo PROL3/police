@@ -1,0 +1,28 @@
+ 
+ ## ADD
+post http://localhost:3000/api/employees
+Content-Type: application/json
+
+{ 
+    
+      "nationalId": 47654,
+      "name": "mom",
+      "role": "Frontend Developer",
+      "salary": 34300,
+      "workingHours": 40,
+      "currentWorkingHours": 30,
+      "employmentDate":"2023.08.11"
+      
+}
+ 
+#### show employee
+get http://localhost:3000/api/employees/
+
+
+#### show employee by id
+
+
+
+################################
+DELETE http://localhost:3000/api/employees/555555 
+ 
